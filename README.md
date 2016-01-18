@@ -11,7 +11,7 @@ To setup Clearance, visit this page: https://github.com/thoughtbot/clearance or 
 
 4. add ``` config.action_mailer.default_url_options = { host: 'localhost:3000' } ``` into ```config/environments/development.rb ``` and also ``` config/environments/test.rb ```
 
-5. add the following code to views/home/index.html.erb 
+5. add the following code to ```views/home/index.html.erb ```
 
 ``` if signed_in? %>
       Signed in as: <%= current_user.email %>
