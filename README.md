@@ -49,4 +49,5 @@ To setup Clearance, visit this page: https://github.com/thoughtbot/clearance or 
 #References
 1. https://github.com/thoughtbot/clearance
 
-
+#Errors and solutions
+1. https://github.com/estelleccl/how_to_use_clearance/blob/master/Errors_and_solutions.md
