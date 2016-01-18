@@ -53,8 +53,8 @@ undefined method `confirmation_token=' for #<User:0x007fc961cb6998> </i></b>
 				8. Turn on Access for less secure apps
 ```
 
-6. <b><i>ActiveRecord::StatementInvalid in SessionsController#create_from_omniauth Could not find table 'authentications' </i></b>
-authentication = Authentication.find_by_provider_and_uid(auth_hash["provider"], auth_hash["uid"]) || Authentication.create_with_omniauth(auth_hash)
+6. <b><i>ActiveRecord::StatementInvalid in SessionsController#create_from_omniauth Could not find table 'authentications' authentication = Authentication.find_by_provider_and_uid(auth_hash["provider"], auth_hash["uid"]) || Authentication.create_with_omniauth(auth_hash) </i></b>
+
 
 	Solution:
 		```create authentication table with uid,token and provider column```
