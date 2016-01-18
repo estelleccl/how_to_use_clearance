@@ -14,8 +14,8 @@ To setup Clearance, visit this page: https://github.com/thoughtbot/clearance or 
 5. add the following code to ```views/home/index.html.erb ```
 
 ``` if signed_in? %>
-      *Signed in as: <%= current_user.email %>*
-      *<%= button_to 'Sign out', sign_out_path, method: :delete %>*
+      **Signed in as: <%= current_user.email %>
+      *<%= button_to 'Sign out', sign_out_path, method: :delete %>
     <% else %>
       <%= link_to 'Sign in', sign_in_path %>
       <%= link_to 'Sign Up', sign_up_path %>
