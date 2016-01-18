@@ -59,29 +59,25 @@ undefined method `confirmation_token=' for #<User:0x007fc961cb6998> </i></b>
 	Solution:
 		```create authentication table with uid,token and provider column```
 
-7. <b><i>NoMethodError in SessionsController#create_from_omniauth
-undefined method `friendly_name=' for #<User:></i></b>
+7. <b><i>NoMethodError in SessionsController#create_from_omniauth undefined method `friendly_name=' for #<User:></i></b>
+	
 	Solution:
 		``` add ``` friendly_name ``` column to users table ```
 
-8. <b><i>NoMethodError in SessionsController#create_from_omniauth
-undefined method `picture =' for #<User:></i></b>
+8. <b><i>NoMethodError in SessionsController#create_from_omniauth undefined method `picture =' for #<User:></i></b>
 
 	Solution:
 		``` add ``` picture ``` column to users table ```
 
-9. <b><i>NoMethodError in SessionsController#create_from_omniauth
-undefined method `friendly_name =' for #<User:></i></b>
+9. <b><i>NoMethodError in SessionsController#create_from_omniauth undefined method `friendly_name =' for #<User:></i></b>
 
 	Solution:
 		``` add ``` friendly_name ``` column to users table ```
-10. <b><i>NoMethodError in SessionsController#create_from_omniauth
-undefined method `last_name =' for #<User:></i></b>
+10. <b><i>NoMethodError in SessionsController#create_from_omniauth undefined method `last_name =' for #<User:></i></b>
 
 	Solution:
 		``` add ``` last_name ``` column to users table ```
-11. <b><i>ActiveModel::MissingAttributeError in SessionsController#create_from_omniauth
-    can't write unknown attribute `user_id</i></b>
+11. <b><i>ActiveModel::MissingAttributeError in SessionsController#create_from_omniauth can't write unknown attribute `user_id</i></b>
 
 	Solution:
 		``` add ``` user_id ``` column to authentications table ```
