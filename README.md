@@ -35,9 +35,11 @@ To setup Clearance, visit this page: https://github.com/thoughtbot/clearance or 
 8. run ``` rails g migration add_three_columns_to_users_for_clearance``` in the terminal
     
 9. go to ``` db/migrate``` and find ```<timestamps>_add_three_columns_to_users_for_clearance.rb ```add the following code into the file:
-  ``` add_column :users, :encrypted_password, :string
+  ``` 
+    add_column :users, :encrypted_password, :string
       add_column :users, :remember_token, :string
-      add_column :users, :confirmation_token, :string ```
+      add_column :users, :confirmation_token, :string 
+```
 
 10. run ``` bundle exec rake db:migrate  ``` in the terminal
 
