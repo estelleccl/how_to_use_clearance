@@ -17,10 +17,12 @@
 		``` add remember_token column to users table```
 4. <b><i>NoMethodError in Clearance::PasswordsController#create
 undefined method `confirmation_token=' for #<User:0x007fc961cb6998> </i></b>
+	
 	Solution:
 		```add confirmation_token column to users table```
 
 5. <b><i>Forget Password Feature unable to send email </i></b>
+	
 	Solution:
 ```
 		a. please setup your smtp to send email
