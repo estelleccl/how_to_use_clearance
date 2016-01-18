@@ -1,6 +1,6 @@
 #Errors and Solution for Clearance gem
 
-1. can only see <i>`You're in the users#new. This file is located in app/views/users/new.html.erb`</i>. 
+1. can only see <b><i>`You're in the users#new. This file is located in app/views/users/new.html.erb`</i></b>. 
    When click on SignUp buttom 
    
    Solution: 
