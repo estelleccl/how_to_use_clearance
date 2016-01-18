@@ -1,9 +1,9 @@
 #Errors and Solution for Clearance gem
 
-1. ``` can only see ``` You're in the users#new. This file is located in `app/views/users/new.html.erb` ``` when click on SignUp buttom ```
+1. ``` ```can only see  You're in the users#new. This file is located in `app/views/users/new.html.erb```` when click on SignUp buttom ```
 
-Solution: 
-```delete views/users folder ```
+	Solution: 
+	```delete views/users folder ```
 
 2. ``` NoMethodError in Clearance::UsersController#create undefined method `encrypted_password=' for #<User:0x007f9631da31c0> ```
 Solution:
